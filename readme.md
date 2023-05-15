@@ -1,7 +1,5 @@
 # react+antd 制作管理系统 笔记
 
-[服务器端接口](https://github.com/btc022003/hdf-app-server)
-
 ## 初始化项目
 
 ```bash
