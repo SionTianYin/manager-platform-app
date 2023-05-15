@@ -1,0 +1,14 @@
+.logo img {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.app-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.admin {
+  float: right;
+}
