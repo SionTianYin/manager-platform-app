@@ -9,7 +9,7 @@ import {
   AimOutlined,
   DatabaseOutlined,
 } from '@ant-design/icons'
-import { Layout, Menu, Button, theme, Dropdown } from 'antd'
+import { Layout, Menu, Button, theme, Dropdown, Space } from 'antd'
 import { useNavigate } from 'react-router-dom'
 import logo from '../assets/logo.jpg'
 
@@ -95,9 +95,25 @@ const MyLayout: React.FC = ({ children }: any) => {
               height: 64,
             }}
           />
-          <span className="app-title">数据管理中心</span>
-          <Dropdown>
-            <span className="admin">管理员</span>
+          <span className="app-title">数据管理平台</span>
+          <Dropdown
+            className="admin"
+            menu={{
+              items: [
+                {
+                  key: 'userCenter',
+                  label: '个人中心',
+                },
+                {
+                  key: 'logOut',
+                  danger: true,
+                  label: '退出',
+                },
+              ],
+            }}>
+            <a onClick={(e) => e.preventDefault()}>
+              <Space>管理员</Space>
+            </a>
           </Dropdown>
         </Header>
         <Content
