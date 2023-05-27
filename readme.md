@@ -26,4 +26,5 @@ npm i react-router-dom axios nprogress antd @ant-design/icons
 npm run dev # 启动
 ```
 
-p
+## 待解决的项目
+#请与此项目联合使用，此为后端代码：https://github.com/SionTianYin/project-nest-basic ，但是问题在于后端不会写，所以最麻烦的登录验证和增删改查，十分棘手
